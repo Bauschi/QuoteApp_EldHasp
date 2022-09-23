@@ -30,3 +30,26 @@ The initial question was: How to get access to an Object created on WPF Level li
     </Window.Resources>
     
  ```
+
+But the answer on this type is or would be : It is not possible to access data created in this context. 
+With MvvM it is not necessary to access the object from any other class.
+In my approach wich is much easier for me in the beginning i want to access the instance of the object Data for easily accessing the properties and work with them 
+please see in my Solution how i managaed it. 
+
+``` cs
+
+ public static Cl_Data Data = new Cl_Data();
+
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            this.DataContext = Data;
+        }
+
+```
+
+
+The big difference between our Solutions is, that i bind the DataContext in MainWindow.cs (CodeBehind) to a Class and create a specific Instance of the Object which i access from every other class. Thats much more understandable for me so far. 
+
+SO please point out if i am wrong in my thinking and what i can improve and if you agree with my statements 
