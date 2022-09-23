@@ -13,6 +13,7 @@ I have read a lot about MVVM and don't see how this should be useful for our pur
 The initial question was: How to get access to an Object created on WPF Level like here: 
 
 ´´´XML
+
     <Window.Resources>
          Binding the Data Class
         <local:Cl_Data x:Key="Data" 
@@ -27,4 +28,5 @@ The initial question was: How to get access to an Object created on WPF Level li
                        Requirements="A++-Kit"
                        />
     </Window.Resources>
+    
  ´´´
