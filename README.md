@@ -12,7 +12,7 @@ I have read a lot about MVVM and don't see how this should be useful for our pur
 
 The initial question was: How to get access to an Object created on WPF Level like here: 
 
-´´´text.xml.plist
+´´´ text.xml.plist
 
     <Window.Resources>
          Binding the Data Class
