@@ -12,7 +12,7 @@ I have read a lot about MVVM and don't see how this should be useful for our pur
 
 The initial question was: How to get access to an Object created on WPF Level like here: 
 
-```ruby
+```xml
 
     <Window.Resources>
          Binding the Data Class
